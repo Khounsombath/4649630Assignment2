@@ -1,11 +1,3 @@
-Developer Information
-
-Student Name: Khounsombath Latsanaxay
-Student ID: S4649630
-Subject: MAP (Mobile Application Programming) – Assignment 2
-University: Victoria University
-
-
 
 #  S4649630Assignment2 – Course Dashboard App
 
@@ -97,4 +89,10 @@ Core Dependencies
 | `junit:junit:4.13.2`                               | Unit testing framework                            |
 | `androidx.test.ext:junit`                          | Android JUnit support                             |
 | `androidx.test.espresso:espresso-core`             | UI testing                                        |
+
+      Developer Information
+Student Name: Khounsombath Silaxa
+Student ID: S4649630
+Subject: (Mobile Application Programming) – Assignment 2
+University: Victoria University
 

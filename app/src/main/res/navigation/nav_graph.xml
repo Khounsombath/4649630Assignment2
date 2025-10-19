@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/s4649630LoginFragment">
+
+    <!--  Login Fragment -->
+    <fragment
+        android:id="@+id/s4649630LoginFragment"
+        android:name="com.example.s4649630assignment2.S4649630LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_dashboard"
+            app:destination="@id/s4649630DashboardFragment" />
+    </fragment>
+
+    <!--  Dashboard Fragment -->
+    <fragment
+        android:id="@+id/s4649630DashboardFragment"
+        android:name="com.example.s4649630assignment2.S4649630DashboardFragment"
+        android:label="Dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_details"
+            app:destination="@id/s4649630DetailFragment" />
+    </fragment>
+
+    <!--  Detail Fragment -->
+    <fragment
+        android:id="@+id/s4649630DetailFragment"
+        android:name="com.example.s4649630assignment2.S4649630DetailFragment"
+        android:label="Course Details" />
+</navigation>

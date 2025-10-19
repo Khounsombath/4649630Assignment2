@@ -28,9 +28,64 @@ The app demonstrates key Android development principles including **Dependency I
 
 ---
 
-## ⚙️ How to Build and Run
+##  How to Build and Run
 
-###  1. Clone the Repository
-```bash
-git clone https://github.com/khounsombath/S4649630Assignment2.git
-cd S4649630Assignment2
+### 1. Prerequisites
+Before running the project, ensure the following are installed on your system:
+- **Android Studio** (latest stable version)
+- **Gradle** (automatically managed by Android Studio)
+- **Java JDK 17** or higher
+- **Android SDK 33** or later
+- A **physical Android device** or **emulator** running Android 10 (API level 29) or higher
+
+---
+
+### 2. Steps to Build the Project
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Khounsombath/4649630Assignment2.git
+
+
+Open in Android Studio
+
+Launch Android Studio.
+
+Select File → Open and choose the cloned project folder.
+
+Wait for Gradle to finish syncing.
+
+Build the Project
+
+Click on Build → Make Project or use shortcut Ctrl + F9.
+
+Ensure there are no build errors.
+
+Run the Application
+
+Connect your Android device (with USB debugging enabled) or open an Android Emulator.
+
+Click Run → Run 'app' or press Shift + F10.
+
+
+ependencies and Setup Instructions
+
+The following dependencies are used in the project.
+They are already included in the build.gradle.kts files and will be automatically downloaded by Gradle.
+Core Dependencies
+| Dependency                                         | Purpose                                           |
+| -------------------------------------------------- | ------------------------------------------------- |
+| `androidx.core:core-ktx`                           | Android core extensions for Kotlin                |
+| `androidx.appcompat:appcompat`                     | Backward compatibility for older Android versions |
+| `com.google.android.material:material`             | Material Design components                        |
+| `androidx.constraintlayout:constraintlayout`       | Layout management                                 |
+| `androidx.navigation:navigation-fragment-ktx`      | Navigation between fragments                      |
+| `androidx.navigation:navigation-ui-ktx`            | Navigation UI support                             |
+| `org.jetbrains.kotlinx:kotlinx-coroutines-android` | Coroutine support for background tasks            |
+| `com.squareup.retrofit2:retrofit`                  | REST API integration                              |
+| `com.squareup.retrofit2:converter-gson`            | JSON parsing                                      |
+| `com.squareup.okhttp3:logging-interceptor`         | API logging                                       |
+| `org.koin:koin-android`                            | Dependency Injection                              |
+| `junit:junit:4.13.2`                               | Unit testing framework                            |
+| `androidx.test.ext:junit`                          | Android JUnit support                             |
+| `androidx.test.espresso:espresso-core`             | UI testing                                        |
+

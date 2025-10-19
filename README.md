@@ -2,7 +2,7 @@
 #  S4649630Assignment2 – Course Dashboard App
 
 This Android application is developed as part of the MAP Assignment 2 project.  
-The app demonstrates key Android development principles including **Dependency Injection (Hilt)**, **API integration using Retrofit**, and **RecyclerView-based UI** for displaying course information.
+The app demonstrates key Android development principles including "Dependency Ijection (Hilt)", "API intergration using Retrofit", and "RecycleView-base UI" for displaying course information.
 
 ---
 
@@ -95,4 +95,6 @@ Student Name: Khounsombath Silaxa
 Student ID: S4649630
 Subject: (Mobile Application Programming) – Assignment 2
 University: Victoria University
+
+
 

@@ -1,4 +1,4 @@
-S4649630Assignment2 – Course Dashboard App
+S4649630Assignment2 –
 This Android application is developed as part of the MAP Assignment 2 project.
 The app demonstrates key Android development principles including "Dependency Ijection (Hilt)", "API intergration using Retrofit", and "RecycleView-base UI" for displaying course information.
 _____________________________________

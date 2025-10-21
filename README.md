@@ -60,4 +60,7 @@ androidx.test.ext:junit	Android JUnit support
 androidx.test.espresso:espresso-core	UI testing
   Developer Information
 Student Name: Khounsombath Silaxa Student ID: S4649630 Subject: (Mobile Application Programming) – Assignment 2 University: Victoria University
-
+__________________________________________________
+To Login:
+Username = khounsombath
+Password = 4649630
